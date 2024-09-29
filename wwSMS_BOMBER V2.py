@@ -382,7 +382,7 @@ def paybol(number):
         return False, "Paybol"
 
 if a==8400 :print(Y+""" doğru şifre giriş onaylandı data aranıyor...""")
-else :a!=8  and print(K+" yanlış şifre giriş onaylanmadı son 3 hakkınız var")
+else :a!=8  and clar and print(K+" yanlış şifre giriş onaylanmadı son 3 hakkınız var")
 time. sleep (6) 
 
 webbrowser.open("https://youtube.com/@weoxyt?si=ukdMkOCQbs5--wBQ")
